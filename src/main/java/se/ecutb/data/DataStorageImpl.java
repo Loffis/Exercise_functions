@@ -3,8 +3,9 @@ package se.ecutb.data;
 import se.ecutb.model.Person;
 import se.ecutb.util.PersonGenerator;
 
-import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -65,8 +66,6 @@ public class DataStorageImpl implements DataStorage {
 
     @Override
     public List<Person> findAndSort(Comparator<Person> comparator){
-        LocalDate date = LocalDate.now();
-
         return null;
     }
 

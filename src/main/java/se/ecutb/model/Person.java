@@ -88,11 +88,11 @@ public class Person {
 	public String toString() {
 		final StringBuilder sb = new StringBuilder("Person{");
 		sb.append("id=").append(id);
-		sb.append(", firstName='").append(firstName).append('\'');
-		sb.append(", lastName='").append(lastName).append('\'');
-		sb.append(", birthDate=").append(birthDate);
-		sb.append(", gender=").append(gender);
-		sb.append('}');
+		sb.append(", \tfirstName='").append(firstName).append('\'');
+		sb.append(", \tlastName='").append(lastName).append('\'');
+		sb.append(", \tbirthDate=").append(birthDate);
+		sb.append(", \tgender=").append(gender);
+		sb.append("}\n");
 		return sb.toString();
 	}
 }
